@@ -135,6 +135,18 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
     * Sequence models: Bidirectional RNNs, Seq2Seq, Attention mechanism, and why Transformers won
     * Full spiral dataset classification example trained from scratch with Adam optimizer
     * Interview rapid-fire Q&A and preparation checklist
+   
+12. **Feature Engineering & Data Preprocessing**
+    * Data Cleaning** — handling missing values (MCAR/MAR/MNAR), imputation strategies (Mean, Median, KNN), missingness indicators, duplicates, outlier detection (Z-Score, IQR) & treatment
+    * *Encoding Categorical Variables** — Label/Ordinal, One-Hot, Target Encoding (with smoothing), Frequency Encoding
+    * Feature Scaling** — StandardScaler, MinMaxScaler, RobustScaler — when and why
+    * Feature Transformation** — Log, Square Root, Box-Cox, Yeo-Johnson to fix skewed distributions
+    * Feature Creation** — interaction features, polynomial features, binning, datetime extraction, cyclical encoding (sin/cos), basic text features
+    * Feature Selection** — correlation analysis, mutual information, RFE, Lasso (L1)
+    * Sklearn Pipelines** — end-to-end preprocessing + model pipeline with cross-validation
+    * Interview Q&A** — 12 commonly asked feature engineering questions with detailed answers
+
+
 
  
 
