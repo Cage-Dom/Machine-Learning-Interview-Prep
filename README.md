@@ -145,6 +145,18 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
     * Feature Selection** — correlation analysis, mutual information, RFE, Lasso (L1)
     * Sklearn Pipelines** — end-to-end preprocessing + model pipeline with cross-validation
     * Interview Q&A** — 12 commonly asked feature engineering questions with detailed answers
+   
+13. **Evaluation & Metrics — Knowing When Your Model Is Actually Good**
+    * The Confusion Matrix: TP, TN, FP, FN — the foundation of all classification metrics
+    * Accuracy, Precision, Recall, F1, and F-beta — all implemented from scratch
+    * The Accuracy Paradox: why 99% accuracy can mean a completely useless model
+    * ROC-AUC and Precision-Recall AUC — threshold-free model evaluation
+    * Regression metrics: MAE, MSE, RMSE, R², MAPE — with outlier sensitivity analysis
+    * Ranking metrics: Precision@K and NDCG — for search and recommendation systems
+    * Model calibration: reliability diagrams and when probabilities can be trusted
+    * Cross-validation: stratified K-fold, mean ± std reporting
+    * Metric selection guide: a practical cheat sheet for any interview scenario
+    * Interview Questions & Answers
 
 
 
