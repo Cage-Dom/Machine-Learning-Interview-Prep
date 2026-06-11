@@ -157,6 +157,20 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
     * Cross-validation: stratified K-fold, mean ± std reporting
     * Metric selection guide: a practical cheat sheet for any interview scenario
     * Interview Questions & Answers
+   
+14. **Recommendation Systems & Ranking — From Foundations to Production Intuition**
+    * The two classical families: content-based vs collaborative filtering — what each needs and where each fails
+    * Content-based filtering from scratch: user profiles and cosine similarity scoring
+    * Similarity measures: cosine, Pearson (mean-centered), and Jaccard for implicit feedback
+    * User–user collaborative filtering: similarity-weighted, mean-centered prediction with a user-user similarity heatmap
+    * Item–item collaborative filtering: adjusted cosine, stability, and why Amazon preferred it
+    * Matrix factorization (the Netflix Prize idea): latent factors, SGD from scratch with full gradient derivation, and visualization of learned item vectors
+    * The cold-start problem (new user / new item / new system) and hybrid systems (content + CF, two-tower intuition)
+    * From rating prediction to ranking: why RMSE is the wrong objective
+    * Ranking metrics from scratch: Precision@K, Recall@K, MAP, and NDCG — with a worked example showing identical Precision but very different NDCG
+    * Learning to Rank: pointwise vs pairwise vs listwise, with a from-scratch BPR (Bayesian Personalized Ranking) implementation on implicit feedback
+    * Common pitfalls: explicit vs implicit feedback, popularity bias, the feedback loop, evaluation leakage (temporal splits), and the two-stage retrieval funnel
+    * Interview Questions & Answers
 
 
 
