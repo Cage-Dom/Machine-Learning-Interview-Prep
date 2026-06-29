@@ -172,7 +172,41 @@ Welcome to **Machine Learning Explorations**, a collection of **educational Jupy
     * Common pitfalls: explicit vs implicit feedback, popularity bias, the feedback loop, evaluation leakage (temporal splits), and the two-stage retrieval funnel
     * Interview Questions & Answers
 
+15. **Customer Segmentation & Retention — End-to-End E-commerce Project**
+    * Real-world data cleaning: messy invoice lines, cancellations, missing customer IDs
+    * Exploratory understanding of the business *before* modeling
+    * RFM feature engineering (Recency, Frequency, Monetary)
+    * RFM quantile scoring — the interpretable, no-ML baseline
+    * K-Means clustering: choosing *k* with the Elbow method and Silhouette analysis
+    * Cluster visualization and interpretation
+    * Translating clusters into named personas (Champions, At-Risk, etc.)
+    * Retention strategy: turning each segment into concrete marketing action
+    * Production considerations: what changes when this goes live
 
+16. **Demand Forecasting & Time Series Modeling — End-to-End E-commerce Project**
+    * From a raw transaction log to a clean daily demand signal
+    * Handling the real-world zero-day problem (missing dates vs. true zeros)
+    * Time series decomposition: trend, seasonality, residual
+    * Stationarity and the Augmented Dickey-Fuller (ADF) test
+    * Reading off `p` and `q` from ACF and PACF plots
+    * Backtesting setup and honest naive/seasonal baselines
+    * ARIMA — modeling trend without seasonality
+    * SARIMA — adding the weekly seasonal component
+    * Prophet — the robust, production-friendly option
+    * Side-by-side model comparison with error metrics matched to the business question
+    * "Which model when?" — the decision a senior DS actually makes
+    * Production considerations: retraining, monitoring, and forecast intervals
+
+17. **Churn Prediction & Customer Lifetime Value (CLV) — End-to-End E-commerce Project**
+    * Defining churn with a time-split design — the hardest, most important decision
+    * Feature engineering using *past behaviour only* (avoiding leakage)
+    * Logistic Regression baseline vs. XGBoost, the tabular churn workhorse
+    * An honest look at results: why a "good" AUC can still be operationally limited
+    * Choosing a decision threshold as a business choice, not a default
+    * Explainability with SHAP — *why* each customer is flagged
+    * Customer Lifetime Value (CLV) as a probabilistic forecast of future worth
+    * The Churn × CLV retention priority matrix and a concrete action playbook
+    * Production considerations: what changes when this is real
 
  
 
